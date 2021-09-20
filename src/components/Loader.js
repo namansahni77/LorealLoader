@@ -19,7 +19,7 @@ useEffect(()=>{
 return(
     <Fragment>
         <div className="center">
-<h1 >Loreal</h1>
+<h1 >L'oreal</h1>
 <div className='num' >{count + '%'}</div>
 </div>
     </Fragment>

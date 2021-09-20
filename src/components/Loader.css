@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../images/makeup.jpeg);
+    background-image: url(../images/image.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,13 +18,13 @@ body{
 h1{
     color: white;
     font-size: 5rem;
-    font-family: sans-serif;
-    letter-spacing: 1rem;
+    font-family: HelveticaNowDisplay;
+    letter-spacing: 0.5rem;
     text-transform: uppercase; 
     position: relative;
 }
 h1::before{
-    content: "loreal";
+    content: "l'oreal";
     width: 100%;
     color: #ED5D66;
     position: absolute;
@@ -39,14 +39,18 @@ h1::before{
     left: 50%;  
     transform: translate(-50%,-50%); 
     font-size: 2rem;
-    color: #ED5D66;
-    font-family:Roboto ;
+    /* color: #ED5D66; */
+    color:white;
+    font-family: Roboto;
+    font-weight: bold;
 }
 @keyframes anim {
     0%{
         width:0%;
+        color: violet;
     }
     100%{
         width:100%;
+        color: #ED5D66;
     }
 }
